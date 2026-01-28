@@ -20,7 +20,7 @@ const Home = () => {
       <div className='inputHolder' style={{}}>
         <input  type="text" placeholder='search...' value={searchedWord} onChange={(e)=>setSearchedWord(e.target.value)}/>
         <button onClick={()=>navigate("foodsbysearch/"+searchedWord)}><IoSearchSharp/></button>
-      </div>
+      </div>//a
       <div className='content'>
 
     <div className="cardsHolder">
